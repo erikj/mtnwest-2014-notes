@@ -4,6 +4,8 @@ I had the privilege of attending the [2014 Mountain-West-Hackweek Conference](ht
 
 The conference was conducted in an auditorium @ the Salt Lake City Public Library, a beautiful and modern facility, and was composed three separate conferences: a two-days JavaScript conference, a one-day DevOps conference and a two-day Ruby conference.
 
+My notes from this conference are available @ https://github.com/erikj/mtnwest-2014-notes. Video of presentations should be available @ [Confreaks](http://www.confreaks.com/videos) within a few weeks of the conference.
+
 ## JavaScript
 
 The JavaScript Conference covered the contemporary topics on JavaScript:
@@ -51,6 +53,44 @@ The other Netflix presenter stated *"at Netflix, we only try to manipulate data 
 
 #### [Twitter Flight](http://twitter.github.io/flight/)
 
+Another JavaScript framework that was a topic of a presentation was **Twitter Flight**. In ["You should be using Twitter's Flight framework."](http://kperch.github.io/mtn_west/) Kassandra Perch described the framework as:
+
+- set of small utilities
+- encourages well-written, modular apps
+- lightweight
+- not MV* (Model View Controller, Model View Whatever, etc.)
+- plays well w/ other libraries, *e.g.* AngularJS, Ember, *et. al*
+- gives you tools to structure your code
+
+The commandments of **Flight** are:
+
+- components are atomic
+- communication vie events
+- use the DOM
+- test everything
+
+**Flight** is big on functional mixins, per the Gang of Four [Design Patterns](http://en.wikipedia.org/wiki/Design_Patterns), we should value object Composition over Inheritance.
+
+The steps to incorporate into your own code were described as:
+
+1. write your html
+2. write your JS component code
+  - `this.defaultAttrs({})`
+    - allows easy overrides without changing class
+  - `this.after('initialize', function(){})`
+  - Event handlers, listeners
+3. run `.attachTo(selector)`
+
+**Flight** provides utilities needed for testing an application's JavaScript:
+
+- components = tiny little services
+- each service has a consistent API
+- JavaScript-test-framework extensions: [jasmine-flight](https://github.com/flightjs/jasmine-flight), [mocha-flight](https://github.com/flightjs/mocha-flight)
+- wrappers:
+  - set up `EventSpies`
+  - automate HTML markup injection
+  - headless test running
+
 #### [Ember.js](http://emberjs.com/)
 
 Many presenters mentioned that the framework they are using most is **Ember.js**. One presenter said during her introduction that it was her goal to not (otherwise) mention Ember during her talk. So it seemed clear that Ember is the dominant and preferred framework among this conference's presenters.
@@ -58,3 +98,7 @@ Many presenters mentioned that the framework they are using most is **Ember.js**
 ## DevOps
 
 ## Ruby
+
+## Misc Observations
+
+It appeared that there were as many presentations using [Reveal.js](https://github.com/hakimel/reveal.js) as Keynote, and they looked great. This is notable and promising for those of us who prefer to use familiar Web technologies over WYSIWYG presentation editors and opaque proprietary or binary formats.
