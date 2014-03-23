@@ -1,12 +1,12 @@
-# Trip Report Mountain-West Hackweek 2014
+# Trip Report MountainWest Hackweek 2014
 
-I had the privilege of attending the [2014 Mountain-West-Hackweek Conference](http://mtnwesthackweek.org/2014) in Salt Lake City, Utah, March 17-21.
+I had the privilege of attending the [2014 MountainWest Hackweek](http://mtnwesthackweek.org/2014) in Salt Lake City, Utah, March 17-21.
 
-The conference was conducted in an auditorium @ the Salt Lake City Public Library, a beautiful and modern facility, and was composed three separate conferences: a two-days JavaScript conference, a one-day DevOps conference and a two-day Ruby conference.
+Hackweek conducted in an auditorium @ the Salt Lake City Public Library, a beautiful and modern facility, and was composed of three separate conferences: a two-day JavaScript conference, a one-day DevOps conference and a two-day Ruby conference.
 
 My notes from this conference are available @ https://github.com/erikj/mtnwest-2014-notes. Video of presentations should be available @ [Confreaks](http://www.confreaks.com/videos) within a few weeks of the conference.
 
-## JavaScript
+## MountainWest JavaScript Conference
 
 The JavaScript Conference covered the contemporary topics on JavaScript:
 
@@ -95,9 +95,9 @@ The steps to incorporate into your own code were described as:
 
 Many presenters mentioned that the framework they are using most is **Ember.js**. One presenter said during her introduction that it was her goal to not (otherwise) mention Ember during her talk. So it seemed clear that Ember is the dominant and preferred framework among this conference's presenters.
 
-## DevOps
+## MountainWest DevOps Conference
 
-## Ruby
+## MountainWest RubyConf
 
 ## Misc Observations
 
