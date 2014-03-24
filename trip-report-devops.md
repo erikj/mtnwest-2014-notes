@@ -2,7 +2,7 @@
 
 The third day of MountainWest Hackweek was the MountainWest DevOps Conference, which covered contemporary and bleeding-edge techniques and best practices of [DevOps](http://en.wikipedia.org/wiki/DevOps).
 
-All of the presentations delivered were high quality and informative. This report covers what I consider to be the highlights.
+All of the presentations delivered were high quality and informative. This report covers what I consider to be the highlights. If interested in complete coverage of this conference, I direct the reader to [my conference notes](https://github.com/erikj/mtnwest-2014-notes/blob/master/TODAY-20140319.md)
 
 ## Modern DevOps: Understanding the Terrain
 
