@@ -95,6 +95,48 @@ The steps to incorporate into your own code were described as:
 
 Many presenters mentioned that the framework they are using most is **Ember.js**. One presenter said during her introduction that it was her goal to not (otherwise) mention Ember during her talk. So it seemed clear that Ember is the dominant and preferred framework among this conference's presenters.
 
+##### Ember.js + TDD
+
+Two presentations were given on doing Test-Driven Development w/ Ember.js: *Using TDD to Tame the Big Ball o' Mud* by Brandon Hays of [The Frontside](http://frontside.io/) and *Test-Driven Development of Ember.js Applications * by Andy Pliszka of Pivotal Labs. Both were based on usage of the [Jasmine BDD framework](http://jasmine.github.io/).
+
+Andy's presentation was based on a  demo "TODO" JavaScript application that has code located at https://github.com/AntiTyping/EmberDo.
+
+#### And benchmarks for all!
+
+Alex Navasardyan, a member of the Ember.js release-management team, delivered a presentation on benchmarking JavaScript, *e.g.* applications and libraries. For benchmarking JavaScript web applications, it can be difficult to obtain useful benchmarks by looping through execution of code, due to browsers' aggressive garbage collection and compiler optimizations. He recommended using a dedicated library, such as [benchmark.js](http://benchmarkjs.com/) or service, *e.g.* [jsPerf](http://jsperf.com/)
+
+#### Browser Package Management
+
+Guy Bedford spoke on a point of frequent pain for JavaScript developers working on browser-side web applications and Node.js applications: package management. [Require.js](http://requirejs.org/) is a popular solution to this problem, encouraging modularity and making it easy to share code between applications, but configuration is a massive pain: very repetitive and not easily shared. The goal is for a developer to open a web browser and start developing, without the need to install a package manager.
+
+Two possible solutions to this issue are:
+
+- [jspm](http://jspm.io/), *"Frictionless browser package management"*
+
+  > jspm loads any module format (ES6, AMD, CommonJS and globals) directly from endpoints such as `npm` and `github` over CDN for easy in-browser package management.
+
+- [browserify](http://browserify.org/)
+
+  > Browserify lets you require('modules') in the browser by bundling up all of your dependencies.
+
+##### jspm
+
+**jspm** is based on [systemjs](https://github.com/systemjs/systemjs), a *"Spec-compliant universal module loader - loads ES6 modules, AMD, CommonJS and global scripts."* and [ES6 Module Loader Polyfill](https://github.com/ModuleLoader/es6-module-loader), which *"Dynamically loads ES6 modules in NodeJS and current browsers."* ES6 Module Loader Polyfill *"Uses [Traceur](https://github.com/google/traceur-compiler) for compiling ES6 modules and syntax into ES5 in the browser with source map support."*
+
+##### jspm vs. browserify
+
+Guy presented a benchmarks of jspm vs. browserify using the [voxel engine](https://github.com/maxogden/voxel-engine), demonstrating the browserify bundle has a much faster load time, but also a much slower compile time than jspm, which makes jspm the winner of this benchmark, as compile time is typically slower than load time.
+
+#### Lightning Talks
+
+Among the notable lightning talks that were delivered @ MountainWest Javascript were:
+
+**Nick Howard: Higher-Order Functions in 120 Seconds**, which are functions that input and return functions, *ie.* combinators. He introduced [`allong.es`](http://allong.es/), *"a JavaScript library based on the function combinator and decorator recipes introduced in the book JavaScript Allongé."*
+
+An introduction to the [**Unicorn Law**](http://geekfeminism.wikia.com/wiki/Unicorn_Law), which states that *"If you are a woman in Open Source, you will eventually give a talk about being a woman in Open Source."*
+
+**[Middleman](http://middlemanapp.com/): for javascript builds**. Middleman is a Ruby gem that, like the familiar Rails-asset pipeline, uses [Sprockets](https://github.com/sstephenson/sprockets). Middleman allows you to build static and optimized web sites using familiar dynamic tools, such as CoffeeScript, Sass, ERB, Haml, etc.
+
 ## MountainWest DevOps Conference
 
 ## MountainWest RubyConf
