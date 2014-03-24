@@ -18,7 +18,7 @@ Pete Hunt, creator of what's considered the original JavaScript Model-View-Contr
 
 **React** uses *"a virtual DOM diff implementation for ultra-high performance"*
 
-A good way oo make user interfaces reliable is to use the technique of data binding. Many popular frameworks, *e.g.* Ember, Knockout, Backbone, etc. use key-value observation, but this consumes memory, which is limited on mobile devices. It is possible to monitor the Document-Object Model (DOM) of web pages, but the DOM is stateful (boo!).
+A good way to make user interfaces reliable is to use the technique of data binding. Many popular frameworks, *e.g.* Ember, Knockout, Backbone, etc. use key-value observation, but this consumes memory, which is limited on mobile devices. It is possible to monitor the Document-Object Model (DOM) of web pages, but the DOM is stateful (boo!).
 
 However, `render` code is usually fast and cheap. So React leverages a Virtual DOM to keep track of only what's rendered, for *"ultra-high performance"*.
 
