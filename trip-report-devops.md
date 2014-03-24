@@ -122,7 +122,7 @@ Chris Gaffney, of Collective Idea, presented on using [Packer](http://www.packer
 
 Machine images are initialized using Packer, then provisioned in Chef (solo). The goal is to create an image upon which Chef never needs to be run again. Compiled images are then tested as black boxes using RSpec, which makes HTTP requests to the images' API via the [Faraday](https://github.com/lostisland/faraday) Ruby gem. Images are deployed to staging continuously, operations when ready and then destroyed when they are no longer needed or superseded by updated images.
 
-#### Introduction to Docker
+## Introduction to Docker
 
 James Turnbull provided an introduction to [Docker](https://www.docker.io/), which provides a convenient interface to Linux Containers, which have been around since Linux 2.6, but require extensive knowledge of the kernel and cgroups to be accessed.
 
@@ -150,7 +150,7 @@ Docker containers offer several advantages over deployments that require VMs or 
 
 Docker container images can be sourced from [public](https://index.docker.io/) or private registries. Container images are composed of layers and their deltas.
 
-#### ["DevOps" in a Post-DevOps World](http://www.slideshare.net/jpreed/mtnwest-devops2014)
+## ["DevOps" in a Post-DevOps World](http://www.slideshare.net/jpreed/mtnwest-devops2014)
 
 Paul Reed, historically a build & release engineer, and a DevOps consultant for the last few years, and runs a podcast, [The Ship Show](http://theshipshow.com/), addressed the current hype surrounding DevOps and asked:
 
