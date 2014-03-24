@@ -51,7 +51,7 @@ The goal of DevOps is to make this application lifecycle more efficient and opti
 
 Deployment tools are more varied and slightly more complicated:
 
-- **autoconf**: ./configure
+- **autoconf**: `./configure`
 - configuration management tools:
   - chef
   - puppet
@@ -83,3 +83,32 @@ The common goal of maintence tools is to change w/ resiliency to failure.
   - custom events: used to trigger deploys, propagate configuration, etc
   - result: resilient to failure, near instant notification
 
+## [What Your Mother Never Told You About Automating Security](https://github.com/jro/automated_security/blob/master/presentation/one/01_slide.md) ([`pdf`](https://github.com/jro/automated_security/blob/master/presentation.pdf?raw=true))
+
+Jason Rohwedder, of [Risk I/O](https://www.risk.io/), delivered a presentation on automating security. Automation is needed because:
+
+> Security is hard. Be methodical. It takes time.
+
+This presentation covered his experience w/ and knowledge of tools and techniques that addressed the following areas:
+
+- network security
+- network access
+- host firewalls
+- auto firewalls (`fail2ban`)
+- Denial-of-Service / Distributed-Denial-of-Service protection
+- Bastion / gateway hosts
+- SSH (*"use keys, not passwords."*)
+- `sudo`
+- automatic software updates
+  - pin / free critical or unreliable packages
+- OS hardening, *e.g.* SELinux and `sysctl`
+- intrusion-detection systems
+- encryption of resting data
+  > in the cloud, we don't know where our hard drives are going to go after they leave our EC2 instances
+- encryption of backups
+- centralized logging
+- static analysis
+- host-vulnerability scanning
+- web-application vulnerability scanning
+
+Listing all of the tools covered herein would be excessively verbose and redundant. I direct the reader to [the slides for this presentation](https://github.com/jro/automated_security/blob/master/presentation/one/01_slide.md) ([`pdf`](https://github.com/jro/automated_security/blob/master/presentation.pdf?raw=true)) for the descriptions of the techniques and links to the tools covered for the topics for which the reader might be interested.
