@@ -93,6 +93,8 @@ Two presentations were given on doing Test-Driven Development w/ Ember.js: *Usin
 
 Andy's presentation was based on a  demo "TODO" JavaScript application that has code located at https://github.com/AntiTyping/EmberDo.
 
+A useful tool that was mentioned was the [Ember-Inspector](https://github.com/tildeio/ember-extension) browser extension, which is available for [Chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/).
+
 ## And benchmarks for all!
 
 Alex Navasardyan, a member of the Ember.js release-management team, delivered a presentation on benchmarking JavaScript, *e.g.* applications and libraries. For benchmarking JavaScript web applications, it can be difficult to obtain useful benchmarks by looping through execution of code, due to browsers' aggressive garbage collection and compiler optimizations. He recommended using a dedicated library, such as [benchmark.js](http://benchmarkjs.com/) or service, *e.g.* [jsPerf](http://jsperf.com/)
