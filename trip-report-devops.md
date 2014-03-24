@@ -112,3 +112,9 @@ This presentation covered his experience w/ and knowledge of tools and technique
 - web-application vulnerability scanning
 
 Listing all of the tools covered herein would be excessively verbose and redundant. I direct the reader to [the slides for this presentation](https://github.com/jro/automated_security/blob/master/presentation/one/01_slide.md) ([`pdf`](https://github.com/jro/automated_security/blob/master/presentation.pdf?raw=true)) for the descriptions of the techniques and links to the tools covered for the topics for which the reader might be interested.
+
+## The Immutable Pipeline
+
+Chris Gaffney, of Collective Idea, presented on using [Packer](http://www.packer.io/) to create immutable (compiled) machine images for deployment to staging and operations environments.
+
+Machine images are initialized using Packer, then provisioned in Chef (solo). The goal is to create an image upon which Chef never needs to be run again. Compiled images are then tested as black boxes using RSpec, which makes HTTP requests to the images' API via the [Faraday](https://github.com/lostisland/faraday) Ruby gem. Images are deployed to staging continuously, operations when ready and then destroyed when they are no longer needed or superseded by updated images.
