@@ -1,4 +1,4 @@
-# Trip Report MountainWest Hackweek 2014
+# Trip Report: MountainWest Hackweek 2014
 
 I had the privilege of attending the [2014 MountainWest Hackweek](http://mtnwesthackweek.org/2014) in Salt Lake City, Utah, March 17-21.
 
