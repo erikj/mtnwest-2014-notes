@@ -1,4 +1,4 @@
-# Trip Report, MountainWest JavaScript Conference, March 17 & 18, 2014, Salt Lake City, Utah
+# Trip Report: MountainWest JavaScript Conference, March 17 & 18, 2014, Salt Lake City, Utah
 
 The JavaScript Conference covered the contemporary topics on JavaScript:
 
