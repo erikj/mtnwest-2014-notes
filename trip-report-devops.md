@@ -1,5 +1,8 @@
 # Trip Report: MountainWest DevOps Conference, March 19, 2014, Salt Lake City, Utah
 
+The third day of MountainWest Hackweek was the MountainWest DevOps Conference, which covered contemporary and bleeding-edge techniques and best practices of [DevOps](http://en.wikipedia.org/wiki/DevOps).
+
+All of the presentations delivered were high quality and informative. This report covers what I consider to be the highlights.
 
 ## Modern DevOps: Understanding the Terrain
 
@@ -118,3 +121,70 @@ Listing all of the tools covered herein would be excessively verbose and redunda
 Chris Gaffney, of Collective Idea, presented on using [Packer](http://www.packer.io/) to create immutable (compiled) machine images for deployment to staging and operations environments.
 
 Machine images are initialized using Packer, then provisioned in Chef (solo). The goal is to create an image upon which Chef never needs to be run again. Compiled images are then tested as black boxes using RSpec, which makes HTTP requests to the images' API via the [Faraday](https://github.com/lostisland/faraday) Ruby gem. Images are deployed to staging continuously, operations when ready and then destroyed when they are no longer needed or superseded by updated images.
+
+#### Introduction to Docker
+
+James Turnbull provided an introduction to [Docker](https://www.docker.io/), which provides a convenient interface to Linux Containers, which have been around since Linux 2.6, but require extensive knowledge of the kernel and cgroups to be accessed.
+
+Addressing the excitement and utility, James said:
+
+> Containerization is the new virtualization
+
+Docker adopts its concept from Solaris:
+
+- easy and lightweight way to model reality
+- devs care about their app, ops cares about containers
+- golden images w/o the overhead
+
+Docker containers offer several advantages over deployments that require VMs or Cloud:
+
+- speed of deployment
+  - containers are a fraction of the size of a virtual machine, which contains an entire OS, so they can be up/downloaded that much more quickly
+- portability
+  - containers can run on any supported version of Linux, don't require any virtualization software, *ie.* VMWare, VirtualBox, EC2, Hypervisor, etc. aren't required
+- size aka cached layering
+  - containers can be built on base-container images and deltas
+- density & performance
+  - run many containers on a single server / VM instance w/ no penalty for emulation, but still maintain the isolation of having separate services on separate VM or Cloud instances
+- cost-- VMWare is expensive @ scale
+
+Docker container images can be sourced from [public](https://index.docker.io/) or private registries. Container images are composed of layers and their deltas.
+
+#### ["DevOps" in a Post-DevOps World](http://www.slideshare.net/jpreed/mtnwest-devops2014)
+
+Paul Reed, historically a build & release engineer, and a DevOps consultant for the last few years, and runs a podcast, [The Ship Show](http://theshipshow.com/), addressed the current hype surrounding DevOps and asked:
+
+> Has [jumped the shark](http://en.wikipedia.org/wiki/Jumping_the_shark)?
+
+Paul used the [Cynefin framework](http://en.wikipedia.org/wiki/Cynefin) to see how DevOps' classical set of values maps to practices and a new set of values.
+
+DevOps' classical set of values are described by the *CAMS* acronym:
+
+- Culture
+- Automation
+- Metrics
+- Sharing
+
+According to [wikipedia](http://en.wikipedia.org/wiki/Cynefin#Description_of_the_framework):
+
+> The Cynefin framework has five domains. The first four domains are:
+
+> 1. Simple, in which the relationship between cause and effect is obvious to all, the approach is to Sense - Categorise - Respond and we can apply best practice.
+
+> 2. Complicated, in which the relationship between cause and effect requires analysis or some other form of investigation and/or the application of expert knowledge, the approach is to Sense - Analyze - Respond and we can apply good practice.
+
+> 3. Complex, in which the relationship between cause and effect can only be perceived in retrospect, but not in advance, the approach is to Probe - Sense - Respond and we can sense emergent practice.
+
+> 4. Chaotic, in which there is no relationship between cause and effect at systems level, the approach is to Act - Sense - Respond and we can discover novel practice.
+
+> The fifth domain is Disorder, which is the state of not knowing what type of causality exists, in which state people will revert to their own comfort zone in making a decision. In full use, the Cynefin framework has sub-domains, and the boundary between simple and chaotic is seen as a catastrophic one: complacency leads to failure.
+
+Paul uses Cynewin to show how *CAMS* maps to his new set of values, described by the *VIDS* acronym:
+
+- Value realignment
+- Individuality
+- Don't be an asshole (*cf.* [The No Asshole Rule: Building a Civilized Workplace and Surviving One That Isn't](http://en.wikipedia.org/wiki/The_No_Asshole_Rule) by Stanford Professor of Management Science, Robert I. Sutton)
+- Self awareness / Systems thinking
+  - *cf.* [Empathy is a core engineering value](http://boingboing.net/2013/12/01/empathy-is-a-core-engineering.html)
+
+Paul concludes that DevOps has become an established set of best practices, like Extreme Programming (XP), Agile / Scrum and LeanIT.
