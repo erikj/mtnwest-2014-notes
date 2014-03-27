@@ -130,3 +130,8 @@ Among the notable lightning talks that were delivered @ MountainWest Javascript 
 An introduction to the [**Unicorn Law**](http://geekfeminism.wikia.com/wiki/Unicorn_Law), which states that *"If you are a woman in Open Source, you will eventually give a talk about being a woman in Open Source."*
 
 **[Middleman](http://middlemanapp.com/): for javascript builds**. Middleman is a Ruby gem that, like the familiar Rails-asset pipeline, uses [Sprockets](https://github.com/sstephenson/sprockets). Middleman allows you to build static and optimized web sites using familiar dynamic tools, such as CoffeeScript, Sass, ERB, Haml, etc.
+
+
+## Misc Observations
+
+It was mentioned that Ember.js and React are working on server-side rendering of initial pages, where the JavaScript framework would be loaded by Node.js, allowing developers to use JavaScript and the JS framework to draw the initial page served, as well as update the page after it's loaded by the browser.
