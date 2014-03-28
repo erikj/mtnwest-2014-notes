@@ -1,10 +1,10 @@
 # Trip Report: MountainWest RubyConf, March 20 & 21, 2014, Salt Lake City, Utah
 
-The fourth and fifth days of MountainWest Hackweek were the MountainWest RubyConf, which is the original MountainWest technical conference, now in its @ least seventh year.
+The fourth and fifth days of MountainWest Hackweek were the [MountainWest RubyConf](http://mtnwestrubyconf.org/2014/), which is the original MountainWest technical conference, now in its @ least seventh year.
 
 ## Generate Parsers! Prevent Exploits!
 
-Nick Howard, of Boulder's Gnip, presented a novel analysis and method for securely validating input in Ruby w/ the hypothesis:
+Nick Howard, of Boulder's [Gnip](http://gnip.com/), presented a novel analysis and method for securely validating input in Ruby w/ the hypothesis:
 
 > theory of computation is relevant to web development! (maybe)
 
