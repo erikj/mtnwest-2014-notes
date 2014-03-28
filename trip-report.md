@@ -8,7 +8,7 @@ My notes from this conference are available @ https://github.com/erikj/mtnwest-2
 
 ## Conference Reports:
 
-- [MountainWest JavaScript](https://github.com/erikj/mtnwest-2014-notes/blob/master/trip-report-mwjs.md)
+- [MountainWest JavaScript](https://github.com/erikj/mtnwest-2014-notes/blob/master/trip-report-js.md)
 - [MountainWest DevOps Conference](https://github.com/erikj/mtnwest-2014-notes/blob/master/trip-report-devops.md)
 - [MountainWest RubyConf](https://github.com/erikj/mtnwest-2014-notes/blob/master/trip-report-ruby.md)
 
