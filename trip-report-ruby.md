@@ -65,3 +65,23 @@ request
 
 One thing that Sam recommended, from his findings using `ObjectSpace::trace_object_allocations()`, is to use `String#freeze` for code that makes heavy use of strings that aren't modified-- `#freeze` casts the strings as static objects and reduces overhead which would need to be subsequently garbage collected.
 
+## The Other Junk Drawer: My Tests are a Mess
+
+Christopher Sexton delivered a presentation on cleaning up and organizing tests, which often grow out of hand w/ little planning or thought dedicated to organization. Eventually questions of the variety "Should we add a new feature or clean up the test suite?" are asked @ team meetings, and the answer is always "add a new feature".
+
+Nonetheless, your application's tests should be organized so that, like the rest of your application, you can "write code that you understand when you come back to it in six months".
+
+While writing tests w/ organization in mind, Christopher recommends paying attention and knowing when to stop, always testing, and writing acceptance tests and unit tests (for which he recommends Sandi Metz' RailsConf-2013 presentation [The Magic Tricks of Testing](http://www.confreaks.com/videos/2452-railsconf2013-the-magic-tricks-of-testing).
+
+Christopher also provided these other organization tips:
+
+- Tests should follow the [arrange-act-assert](http://c2.com/cgi/wiki?ArrangeActAssert) pattern
+
+- [Mise en Place](http://en.wikipedia.org/wiki/Mise_en_place): Puts your toys away as you go.
+
+- directory structure of tests should mirror application's directory structure
+
+- group logically: puts related things close together
+
+- manage setup ('arrange' step) of tests very carefully
+
