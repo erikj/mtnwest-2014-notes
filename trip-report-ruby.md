@@ -85,3 +85,32 @@ Christopher also provided these other organization tips:
 
 - manage setup ('arrange' step) of tests very carefully
 
+## [Don't.](https://speakerdeck.com/erniemiller/dont)
+
+Rubyist Ernie Miller delivered an engaging presentation where he shared his lessons learned from programming and life:
+
+> We all know that intelligent species learn from mistakes, right
+
+> There’s just one problem: Life is too short to make every possible mistake! Also, some mistakes are more costly than others.
+
+Accordingly, shared his list of "Don't"s and his experiences w/ their costs:
+
+- don't overestimate how much time you have
+- don't forget that your choices have consequences
+- don't fall in love w/ metaprogramming
+- don't put your code in 'buckets'
+- don't hitch your cart to someone else's horse
+- don't think of your app as 'a Rails app'
+- don't assume to much about how others will use your objects
+- don't use ActiveRecord callbacks, if you can help it (and you can almost always help it)
+- don't mistake the illusion of accomplishment for the real thing
+- don't accept counter-offers
+- don't take a job for the money
+- don't assume it's too late
+- don't get comfortable
+- don't try to be someone you're not
+- don't be afraid:
+  - don't be afraid to say 'no'
+  - don't be afraid to share (*e.g.* Ernie's short-but-sweet blog post [7 Lines Every Gem's Rakefile Should Have](http://erniemiller.org/2014/02/05/7-lines-every-gems-rakefile-should-have/) became his most popular blog post, even though he originally thought it was too obvious to share)
+  - don't be afraid to speak
+  - don't be afraid to stretch
