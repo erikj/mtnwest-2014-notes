@@ -114,3 +114,58 @@ Accordingly, shared his list of "Don't"s and his experiences w/ their costs:
   - don't be afraid to share (*e.g.* Ernie's short-but-sweet blog post [7 Lines Every Gem's Rakefile Should Have](http://erniemiller.org/2014/02/05/7-lines-every-gems-rakefile-should-have/) became his most popular blog post, even though he originally thought it was too obvious to share)
   - don't be afraid to speak
   - don't be afraid to stretch
+
+## The Timeless Way of Building
+
+https://speakerdeck.com/boboroshi/the-timeless-way-of-building-mwrc
+
+John Athayde gave a presentation on the application and lessons of design patterns from the field from which the term originated: Architecture. The books by architect Christopher Alexander provide valuable knowledge that can be applied to software architecture: [The Timeless Way of Building](http://en.wikipedia.org/wiki/The_Timeless_Way_of_Building), [A Pattern Language](http://en.wikipedia.org/wiki/A_Pattern_Language) and [The Oregon Experiment](http://en.wikipedia.org/wiki/The_Oregon_Experiment).
+
+
+The [Design-Patterns book](http://en.wikipedia.org/wiki/Design_Patterns) was written during time of static-typed languages. We have patterns already implemented in Ruby, *e.g.* iterator pattern: `.each`
+
+Modern software design principles are patterns, *e.g.*
+
+- **DRY**
+- **YAGNI**
+- **SRP**
+- **OCP**
+- **LSP**
+- **ISP**
+- **DIP**
+- => **SOLID**
+
+> Patterns all the way down.
+
+Of course, we emulate design patterns, and attempt to avoid or mitigate antipatterns, *e.g.*
+
+- big ball of mud
+- walking the tree, / train wrecks
+  - better: composition, delegation
+- fat models
+  - better:
+    - modules
+    - concerns
+    - plugins
+    - gems
+    - engines
+- callbacks
+- rails is a series of a very large libraries
+- complex finders
+  - better: scopes
+- generators
+- DSL all the things
+- good: typographic rendering (readability)
+- good: MVC
+- untested code
+- fat controllers
+
+[Rails Antipatterns](http://railsantipatterns.com/) and [Design Patterns In Ruby](http://designpatternsinruby.com/) were two books that were recommended for avoiding and mitigating antipatterns.
+
+Two parting thoughts on patterns
+
+> Patterns, like all forms of compexity, should be avoided until they are absolutely necessary - http://blog.codinghorror.com/head-first-design-patterns/
+
+Patterns "remind us of what we already know" - Christopher Alexander
+
+
