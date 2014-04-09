@@ -168,4 +168,29 @@ Two parting thoughts on patterns
 
 Patterns "remind us of what we already know" - Christopher Alexander
 
+## Software Development Lessons from the Apollo Program
+
+Julian Simioni delivered a presentation on the development of the software run by the [guidance computers of the Apollo program](http://en.wikipedia.org/wiki/Apollo_Guidance_Computer) and lessons that are relevant for modern software development. The background information of the presentation was largely derived from the book [Digital Apollo](http://web.mit.edu/digitalapollo/).
+
+Software development for the Apollo program was a challenge, because it was less that 20 years since the term 'software' had even been coined, and the development preceded Unix.
+
+The notable lessons learned, which still apply today, were:
+
+- it is essential to handle failure gracefully
+- do unit testing
+- write software that is easy to test, in this case it was all functional programming
+- do integration testing to prove your code's communication
+- astronauts, like all users, don't know what they want:
+  - they were distrustful of automation and didn't want automated reentry, but only used manual reentry once
+
+MIT conducted a retrospective of the program's software development and concluded:
+
+- hard problems:
+    - making schedules, how to meet them
+    - knowing specificationss of other tests
+- integration testing was very beneficial
+
+Which largely ring true today.
+
+Julian delivered an engaging and interesting presentation, and the lessons learned and engineering practices are worth paying attention to, as they were applied to the development of software that was critical to the missions and lives of Apollo astronauts. [Digital Apollo](http://web.mit.edu/digitalapollo/) has been added to my to-read list.
 
