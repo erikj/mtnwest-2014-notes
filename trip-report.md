@@ -1,6 +1,6 @@
 # Trip Report: MountainWest Hackweek 2014
 
-I had the privilege of attending the [2014 MountainWest Hackweek](http://mtnwesthackweek.org/2014) in Salt Lake City, Utah, March 17-21.
+I had the opportunity of attending the [2014 MountainWest Hackweek](http://mtnwesthackweek.org/2014) in Salt Lake City, Utah, March 17-21.
 
 Hackweek conducted in an auditorium @ the Salt Lake City Public Library, a beautiful and modern facility, and was composed of three separate conferences: a two-day JavaScript conference, a one-day DevOps conference and a two-day Ruby conference.
 
