@@ -2,7 +2,7 @@
 
 I had the opportunity of attending the [2014 MountainWest Hackweek](http://mtnwesthackweek.org/2014) in Salt Lake City, Utah, March 17-21.
 
-Hackweek conducted in an auditorium @ the Salt Lake City Public Library, a beautiful and modern facility, and was composed of three separate conferences: a two-day JavaScript conference, a one-day DevOps conference and a two-day Ruby conference.
+Hackweek was conducted in an auditorium @ the Salt Lake City Public Library, a beautiful and modern facility, and was composed of three separate conferences: a two-day JavaScript conference, a one-day DevOps conference and a two-day Ruby conference.
 
 My notes from this conference are available @ https://github.com/erikj/mtnwest-2014-notes. Video of presentations should be available @ [Confreaks](http://www.confreaks.com/videos) within a few weeks of the conference.
 
