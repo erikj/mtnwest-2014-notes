@@ -115,12 +115,37 @@ Accordingly, shared his list of "Don't"s and his experiences w/ their costs:
   - don't be afraid to speak
   - don't be afraid to stretch
 
-## The Timeless Way of Building
 
-https://speakerdeck.com/boboroshi/the-timeless-way-of-building-mwrc
+## [Five machine learning techniques that you can use in your Ruby apps today](https://speakerdeck.com/stympy/machine-learning-techniques)
+
+Benjamin Curtis, of [Honeybadger](https://www.honeybadger.io/), discussed how we can apply machine learning (ML) to enhance our Ruby apps, specifically the ML techniques of:
+
+1. **logging**, via:
+  - Logstash
+  - Graylog2
+  - Apache Kafka
+  - Amazon Kinesis
+  - Fluentd
+
+1. **clustering**, which makes big parts into smaller parts
+  - [k-means clustering](http://en.wikipedia.org/wiki/K-means_clustering): group anything that can be plotted on an x-y chart
+    - [k_means rubygem](https://github.com/reddavis/K-Means)
+
+1. **deciding**
+
+1. **classifying**
+  - bayesian classification
+    - https://github.com/cardmagic/classifier
+
+1. **recommendations**
+  - Jaccard index: how similar are sets of data?
+    - https://github.com/francois/jaccard
+  - https://github.com/davidcelis/recommendable
+  - [Practical Machine Learning: Innovations in Recommendation](http://www.mapr.com/practical-machine-learning)
+
+## [The Timeless Way of Building](https://speakerdeck.com/boboroshi/the-timeless-way-of-building-mwrc)
 
 John Athayde gave a presentation on the application and lessons of design patterns from the field from which the term originated: Architecture. The books by architect Christopher Alexander provide valuable knowledge that can be applied to software architecture: [The Timeless Way of Building](http://en.wikipedia.org/wiki/The_Timeless_Way_of_Building), [A Pattern Language](http://en.wikipedia.org/wiki/A_Pattern_Language) and [The Oregon Experiment](http://en.wikipedia.org/wiki/The_Oregon_Experiment).
-
 
 The [Design-Patterns book](http://en.wikipedia.org/wiki/Design_Patterns) was written during time of static-typed languages. We have patterns already implemented in Ruby, *e.g.* iterator pattern: `.each`
 
@@ -193,4 +218,3 @@ MIT conducted a retrospective of the program's software development and conclude
 Which largely ring true today.
 
 Julian delivered an engaging and interesting presentation, and the lessons learned and engineering practices are worth paying attention to, as they were applied to the development of software that was critical to the missions and lives of Apollo astronauts. [Digital Apollo](http://web.mit.edu/digitalapollo/) has been added to my to-read list.
-
