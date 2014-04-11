@@ -48,7 +48,7 @@ The goal of DevOps is to make this application lifecycle more efficient and opti
 
 **Vagrant** development environments are also shareable via [`vagrant share`](http://docs.vagrantup.com/v2/share/index.html) and [`vagrant connect`](http://docs.vagrantup.com/v2/share/connect.html), which were [added w/ the recently released Vagrant 1.5](http://www.vagrantup.com/blog/feature-preview-vagrant-1-5-share.html):
 
-> The `share` command is used to share a running Vagrant environment, and the `connect` command compliments it by accessing any shared environment. 
+> The `share` command is used to share a running Vagrant environment, and the `connect` command compliments it by accessing any shared environment.
 
 #### Deployment
 
@@ -154,7 +154,7 @@ Docker container images can be sourced from [public](https://index.docker.io/) o
 
 Paul Reed, historically a build & release engineer, and a DevOps consultant for the last few years, and runs a podcast, [The Ship Show](http://theshipshow.com/), addressed the current hype surrounding DevOps and asked:
 
-> Has [jumped the shark](http://en.wikipedia.org/wiki/Jumping_the_shark)?
+> Has **DevOps** [jumped the shark](http://en.wikipedia.org/wiki/Jumping_the_shark)?
 
 Paul used the [Cynefin framework](http://en.wikipedia.org/wiki/Cynefin) to see how DevOps' classical set of values maps to practices and a new set of values.
 
