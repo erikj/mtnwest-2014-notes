@@ -179,7 +179,7 @@ According to [wikipedia](http://en.wikipedia.org/wiki/Cynefin#Description_of_the
 
 > The fifth domain is Disorder, which is the state of not knowing what type of causality exists, in which state people will revert to their own comfort zone in making a decision. In full use, the Cynefin framework has sub-domains, and the boundary between simple and chaotic is seen as a catastrophic one: complacency leads to failure.
 
-Paul uses Cynewin to show how *CAMS* maps to his new set of values, described by the *VIDS* acronym:
+Paul uses Cynefin to show how *CAMS* maps to his new set of values, described by the *VIDS* acronym:
 
 - Value realignment
 - Individuality
