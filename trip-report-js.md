@@ -14,7 +14,7 @@ increasingly graphically-based Web
 
 ### [React](http://facebook.github.io/react/index.html)
 
-Pete Hunt, creator of what's considered the original JavaScript Model-View-Controller framework, [Backbone.js](http://documentcloud.github.io/backbone/), presented on the framework upon which he currently works Facebook's **React: A JavaScript Library For Building User Interfaces**.
+Pete Hunt presented on the framework upon which he currently works Facebook's **React: A JavaScript Library For Building User Interfaces**.
 
 **React** uses *"a virtual DOM diff implementation for ultra-high performance"*
 
